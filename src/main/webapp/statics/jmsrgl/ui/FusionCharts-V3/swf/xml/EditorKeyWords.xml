@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<KeyWords>
+  <Editor ID="SQL" Name="SQL编辑器">
+    <Owner ID="System" Name="系统自带">
+      <Type ID="SqlKeyWords" Name="SQL关键字">
+        <Item ID="0" Value="select insert delete update create drop alter table view index procedure trigger schema domain commit rollback set transaction declare explan open fetch close prepare execute describe if else case from where in like " />
+      </Type>
+      <Type ID="SqlTypeKeyWords" Name="SQL类型关键字">
+        <Item ID="0" Value="binaray varbinary char varchar nchar nvarchar datetime smalldatetime decimal numeric float real int   smallint tinyint money smallmoney bit cursor sysname timestamp uniqueidentifier text image ntext " />
+      </Type>
+    </Owner>
+    <Owner ID="User" Name="用户自定义">
+      <Type ID="SqlKeyWords" Name="SQL关键字">
+        <Item ID="0" Value="" />
+      </Type>
+      <Type ID="SqlTypeKeyWords" Name="SQL类型关键字">
+        <Item ID="0" Value="" />
+      </Type>
+    </Owner>
+  </Editor>
+  <Editor ID="Java Script" Name="Java Script编辑器">
+    <Owner ID="System" Name="系统自带">
+      <Type ID="JavaScriptKeyWords" Name="Java Script关键字">
+        <Item ID="0" Value="break false in this void continue for new true while delete function null typeof with else if return var try catch finally throw this do case" />
+      </Type>
+    </Owner>
+    <Owner ID="User" Name="用户自定义">
+      <Type ID="JavaScriptKeyWords" Name="Java Script关键字">
+        <Item ID="0" Value="Report DNReport ReportHeader ReportFooter PageHeader PageFooter Detail Db Groups dyDNObjects" />
+      </Type>
+    </Owner>
+  </Editor>
+  <Editor ID="VB Script" Name="VB Script编辑器">
+    <Owner ID="System" Name="系统自带">
+      <Type ID="VBScriptKeyWords" Name="VB Script关键字">
+        <Item ID="0" Value="call class const case dim do erase execute executeglobal exit each else error explicit end for function if and on option private property public randomize redim rem select set sub then next let get while wend with or xor mod" />
+      </Type>
+    </Owner>
+    <Owner ID="User" Name="用户自定义">
+      <Type ID="VBScriptKeyWords" Name="VB Script关键字">
+        <Item ID="0" Value="Report DNReport ReportHeader ReportFooter PageHeader PageFooter Detail Db Groups dyDNObjects" />
+      </Type>
+    </Owner>
+  </Editor>
+</KeyWords>

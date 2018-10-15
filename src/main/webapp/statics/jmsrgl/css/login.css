@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset */
+body{font:12px/18px "微软雅黑",arial,sans-serif;color:#585858;}
+
+body,div,p,span,form,iframe,table,td,th,input,textarea,button,label,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6{margin:0;padding:0; border:0; }
+
+body { background:url(../images/loginbg.jpg) no-repeat top center #00053f; backgroud-size:100%;}
+.login_div { width:1000px; margin:0 auto;}
+.login_content { width:100%; margin:20px auto 0; vertical-align:middle;}
+.login_form { background:url(../images/login_03.png) no-repeat;  width:595px; height:595px;  font-size:14px; color:#fff; margin:17% auto 0; padding:20px;}
+.copyright {  margin:-50px auto 0; color:#fff; text-align:center;}
+.login_label { font-size:18px; margin:220px auto 0; width:257px;}
+.login_label img { margin-bottom:8px;}
+.input_user { background:url(../images/user_ico.png) no-repeat 2% 50% #fff; width:243px; border:1px solid #cccccc; height:32px; margin:0 0 10px 0; padding:0 0 0 30px;border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background-clip:padding-box;background-clip:border-box; }
+.input_password { background:url(../images/password_ico.png) no-repeat 2% 50% #fff; width:243px; border:1px solid #cccccc;  height:32px; margin:0 0 10px 0; padding:0 0 0 30px;border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background-clip:padding-box;background-clip:border-box; }
+.login_btn { float:right; margin-right:100px;cursor:pointer;}
